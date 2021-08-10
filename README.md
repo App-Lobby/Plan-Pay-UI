@@ -26,5 +26,5 @@ An iPhone application build in swift .
   - Added all the fonts 
   - Added "view-controller-based status bar appereance" to look status bar white
  
- 
+ ![Alt Text](https://github.com/myawesomehub/Plan-Pay-UI/blob/main/ezgif.com-gif-maker%20(1).gif)
  
