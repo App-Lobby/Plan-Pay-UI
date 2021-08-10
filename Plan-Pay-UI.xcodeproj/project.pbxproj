@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5491C03B26C21D980071F89B /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491C03A26C21D980071F89B /* RoundedCorners.swift */; };
+		5491C05526C21E530071F89B /* SFUIText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C03E26C21E500071F89B /* SFUIText-HeavyItalic.otf */; };
+		5491C05626C21E530071F89B /* SFUIText-RegularG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C03F26C21E500071F89B /* SFUIText-RegularG1.otf */; };
+		5491C05726C21E530071F89B /* SFUIText-BoldItalicG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04026C21E500071F89B /* SFUIText-BoldItalicG2.otf */; };
+		5491C05826C21E530071F89B /* SFUIText-RegularG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04126C21E500071F89B /* SFUIText-RegularG3.otf */; };
+		5491C05926C21E530071F89B /* SFUIText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04226C21E500071F89B /* SFUIText-Semibold.otf */; };
+		5491C05A26C21E530071F89B /* SFUIText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04326C21E500071F89B /* SFUIText-Bold.otf */; };
+		5491C05B26C21E530071F89B /* SFUIText-ItalicG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04426C21E510071F89B /* SFUIText-ItalicG2.otf */; };
+		5491C05C26C21E530071F89B /* SFUIText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04526C21E510071F89B /* SFUIText-Heavy.otf */; };
+		5491C05D26C21E530071F89B /* SFUIText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04626C21E510071F89B /* SFUIText-Medium.otf */; };
+		5491C05E26C21E530071F89B /* SFUIText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04726C21E510071F89B /* SFUIText-Regular.otf */; };
+		5491C05F26C21E530071F89B /* SFUIText-BoldItalicG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04826C21E510071F89B /* SFUIText-BoldItalicG3.otf */; };
+		5491C06026C21E530071F89B /* SFUIText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04926C21E510071F89B /* SFUIText-MediumItalic.otf */; };
+		5491C06126C21E530071F89B /* SFUIText-BoldG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04A26C21E520071F89B /* SFUIText-BoldG3.otf */; };
+		5491C06226C21E530071F89B /* SFUIText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04B26C21E520071F89B /* SFUIText-Light.otf */; };
+		5491C06326C21E530071F89B /* SFUIText-RegularG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04C26C21E520071F89B /* SFUIText-RegularG2.otf */; };
+		5491C06426C21E530071F89B /* SFUIText-BoldG2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04D26C21E520071F89B /* SFUIText-BoldG2.otf */; };
+		5491C06526C21E530071F89B /* SFUIText-BoldG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04E26C21E520071F89B /* SFUIText-BoldG1.otf */; };
+		5491C06626C21E530071F89B /* SFUIText-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C04F26C21E520071F89B /* SFUIText-Italic.otf */; };
+		5491C06726C21E530071F89B /* SFUIText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C05026C21E520071F89B /* SFUIText-LightItalic.otf */; };
+		5491C06826C21E530071F89B /* SFUIText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C05126C21E520071F89B /* SFUIText-SemiboldItalic.otf */; };
+		5491C06926C21E530071F89B /* SFUIText-BoldItalicG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C05226C21E520071F89B /* SFUIText-BoldItalicG1.otf */; };
+		5491C06A26C21E530071F89B /* SFUIText-ItalicG3.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C05326C21E520071F89B /* SFUIText-ItalicG3.otf */; };
+		5491C06B26C21E530071F89B /* SFUIText-ItalicG1.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5491C05426C21E520071F89B /* SFUIText-ItalicG1.otf */; };
+		5491C06D26C21E660071F89B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5491C06C26C21E660071F89B /* Fonts.swift */; };
+		549D183D26C124F900C3BE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D183C26C124F900C3BE05 /* AppDelegate.swift */; };
+		549D183F26C124F900C3BE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D183E26C124F900C3BE05 /* SceneDelegate.swift */; };
+		549D184126C124F900C3BE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D184026C124F900C3BE05 /* ContentView.swift */; };
+		549D184326C124FA00C3BE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549D184226C124FA00C3BE05 /* Assets.xcassets */; };
+		549D184626C124FA00C3BE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549D184526C124FA00C3BE05 /* Preview Assets.xcassets */; };
+		549D184926C124FA00C3BE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549D184726C124FA00C3BE05 /* LaunchScreen.storyboard */; };
+		549D185C26C1255500C3BE05 /* PricingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D185B26C1255500C3BE05 /* PricingModel.swift */; };
+		549D185E26C1256C00C3BE05 /* PricingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D185D26C1256C00C3BE05 /* PricingViewModel.swift */; };
+		549D186026C1259000C3BE05 /* FirstLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D185F26C1259000C3BE05 /* FirstLayer.swift */; };
+		549D186226C125A200C3BE05 /* SecondLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186126C125A200C3BE05 /* SecondLayer.swift */; };
+		549D186426C125B100C3BE05 /* ThirdLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186326C125B100C3BE05 /* ThirdLayer.swift */; };
+		549D186826C125D600C3BE05 /* FirstLayerTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186726C125D600C3BE05 /* FirstLayerTopView.swift */; };
+		549D186A26C125E200C3BE05 /* FirstLayerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186926C125E200C3BE05 /* FirstLayerInfoView.swift */; };
+		549D186C26C125F000C3BE05 /* TopItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186B26C125F000C3BE05 /* TopItemsView.swift */; };
+		549D186E26C1260600C3BE05 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186D26C1260600C3BE05 /* Line.swift */; };
+		549D187026C1260E00C3BE05 /* BottomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D186F26C1260E00C3BE05 /* BottomButtonView.swift */; };
+		549D187226C1261C00C3BE05 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D187126C1261C00C3BE05 /* LoaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5491C03A26C21D980071F89B /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
+		5491C03E26C21E500071F89B /* SFUIText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		5491C03F26C21E500071F89B /* SFUIText-RegularG1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularG1.otf"; sourceTree = "<group>"; };
+		5491C04026C21E500071F89B /* SFUIText-BoldItalicG2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalicG2.otf"; sourceTree = "<group>"; };
+		5491C04126C21E500071F89B /* SFUIText-RegularG3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularG3.otf"; sourceTree = "<group>"; };
+		5491C04226C21E500071F89B /* SFUIText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.otf"; sourceTree = "<group>"; };
+		5491C04326C21E500071F89B /* SFUIText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.otf"; sourceTree = "<group>"; };
+		5491C04426C21E510071F89B /* SFUIText-ItalicG2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-ItalicG2.otf"; sourceTree = "<group>"; };
+		5491C04526C21E510071F89B /* SFUIText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.otf"; sourceTree = "<group>"; };
+		5491C04626C21E510071F89B /* SFUIText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.otf"; sourceTree = "<group>"; };
+		5491C04726C21E510071F89B /* SFUIText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.otf"; sourceTree = "<group>"; };
+		5491C04826C21E510071F89B /* SFUIText-BoldItalicG3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalicG3.otf"; sourceTree = "<group>"; };
+		5491C04926C21E510071F89B /* SFUIText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-MediumItalic.otf"; sourceTree = "<group>"; };
+		5491C04A26C21E520071F89B /* SFUIText-BoldG3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldG3.otf"; sourceTree = "<group>"; };
+		5491C04B26C21E520071F89B /* SFUIText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.otf"; sourceTree = "<group>"; };
+		5491C04C26C21E520071F89B /* SFUIText-RegularG2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularG2.otf"; sourceTree = "<group>"; };
+		5491C04D26C21E520071F89B /* SFUIText-BoldG2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldG2.otf"; sourceTree = "<group>"; };
+		5491C04E26C21E520071F89B /* SFUIText-BoldG1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldG1.otf"; sourceTree = "<group>"; };
+		5491C04F26C21E520071F89B /* SFUIText-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Italic.otf"; sourceTree = "<group>"; };
+		5491C05026C21E520071F89B /* SFUIText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-LightItalic.otf"; sourceTree = "<group>"; };
+		5491C05126C21E520071F89B /* SFUIText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		5491C05226C21E520071F89B /* SFUIText-BoldItalicG1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalicG1.otf"; sourceTree = "<group>"; };
+		5491C05326C21E520071F89B /* SFUIText-ItalicG3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-ItalicG3.otf"; sourceTree = "<group>"; };
+		5491C05426C21E520071F89B /* SFUIText-ItalicG1.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-ItalicG1.otf"; sourceTree = "<group>"; };
+		5491C06C26C21E660071F89B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		549D183926C124F900C3BE05 /* Plan-Pay-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plan-Pay-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		549D183C26C124F900C3BE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		549D183E26C124F900C3BE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		549D184026C124F900C3BE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		549D184226C124FA00C3BE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		549D184526C124FA00C3BE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		549D184826C124FA00C3BE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		549D184A26C124FA00C3BE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		549D185B26C1255500C3BE05 /* PricingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingModel.swift; sourceTree = "<group>"; };
+		549D185D26C1256C00C3BE05 /* PricingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingViewModel.swift; sourceTree = "<group>"; };
+		549D185F26C1259000C3BE05 /* FirstLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLayer.swift; sourceTree = "<group>"; };
+		549D186126C125A200C3BE05 /* SecondLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLayer.swift; sourceTree = "<group>"; };
+		549D186326C125B100C3BE05 /* ThirdLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLayer.swift; sourceTree = "<group>"; };
+		549D186726C125D600C3BE05 /* FirstLayerTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLayerTopView.swift; sourceTree = "<group>"; };
+		549D186926C125E200C3BE05 /* FirstLayerInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLayerInfoView.swift; sourceTree = "<group>"; };
+		549D186B26C125F000C3BE05 /* TopItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopItemsView.swift; sourceTree = "<group>"; };
+		549D186D26C1260600C3BE05 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		549D186F26C1260E00C3BE05 /* BottomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonView.swift; sourceTree = "<group>"; };
+		549D187126C1261C00C3BE05 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		549D183626C124F900C3BE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5491C03C26C21DA70071F89B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5491C03A26C21D980071F89B /* RoundedCorners.swift */,
+				5491C06C26C21E660071F89B /* Fonts.swift */,
+				5491C03D26C21E3F0071F89B /* Fonts */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5491C03D26C21E3F0071F89B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5491C04326C21E500071F89B /* SFUIText-Bold.otf */,
+				5491C04E26C21E520071F89B /* SFUIText-BoldG1.otf */,
+				5491C04D26C21E520071F89B /* SFUIText-BoldG2.otf */,
+				5491C04A26C21E520071F89B /* SFUIText-BoldG3.otf */,
+				5491C05226C21E520071F89B /* SFUIText-BoldItalicG1.otf */,
+				5491C04026C21E500071F89B /* SFUIText-BoldItalicG2.otf */,
+				5491C04826C21E510071F89B /* SFUIText-BoldItalicG3.otf */,
+				5491C04526C21E510071F89B /* SFUIText-Heavy.otf */,
+				5491C03E26C21E500071F89B /* SFUIText-HeavyItalic.otf */,
+				5491C04F26C21E520071F89B /* SFUIText-Italic.otf */,
+				5491C05426C21E520071F89B /* SFUIText-ItalicG1.otf */,
+				5491C04426C21E510071F89B /* SFUIText-ItalicG2.otf */,
+				5491C05326C21E520071F89B /* SFUIText-ItalicG3.otf */,
+				5491C04B26C21E520071F89B /* SFUIText-Light.otf */,
+				5491C05026C21E520071F89B /* SFUIText-LightItalic.otf */,
+				5491C04626C21E510071F89B /* SFUIText-Medium.otf */,
+				5491C04926C21E510071F89B /* SFUIText-MediumItalic.otf */,
+				5491C04726C21E510071F89B /* SFUIText-Regular.otf */,
+				5491C03F26C21E500071F89B /* SFUIText-RegularG1.otf */,
+				5491C04C26C21E520071F89B /* SFUIText-RegularG2.otf */,
+				5491C04126C21E500071F89B /* SFUIText-RegularG3.otf */,
+				5491C04226C21E500071F89B /* SFUIText-Semibold.otf */,
+				5491C05126C21E520071F89B /* SFUIText-SemiboldItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5491C06E26C21E760071F89B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				549D183C26C124F900C3BE05 /* AppDelegate.swift */,
+				549D183E26C124F900C3BE05 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		549D183026C124F900C3BE05 = {
+			isa = PBXGroup;
+			children = (
+				549D183B26C124F900C3BE05 /* Plan-Pay-UI */,
+				549D183A26C124F900C3BE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		549D183A26C124F900C3BE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				549D183926C124F900C3BE05 /* Plan-Pay-UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		549D183B26C124F900C3BE05 /* Plan-Pay-UI */ = {
+			isa = PBXGroup;
+			children = (
+				5491C06E26C21E760071F89B /* App */,
+				549D185A26C1253E00C3BE05 /* View */,
+				549D185926C1253800C3BE05 /* ViewModel */,
+				549D185826C1253400C3BE05 /* Model */,
+				5491C03C26C21DA70071F89B /* Helper */,
+				549D184226C124FA00C3BE05 /* Assets.xcassets */,
+				549D184726C124FA00C3BE05 /* LaunchScreen.storyboard */,
+				549D184A26C124FA00C3BE05 /* Info.plist */,
+				549D184426C124FA00C3BE05 /* Preview Content */,
+			);
+			path = "Plan-Pay-UI";
+			sourceTree = "<group>";
+		};
+		549D184426C124FA00C3BE05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				549D184526C124FA00C3BE05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		549D185826C1253400C3BE05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				549D185B26C1255500C3BE05 /* PricingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		549D185926C1253800C3BE05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				549D185D26C1256C00C3BE05 /* PricingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		549D185A26C1253E00C3BE05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				549D184026C124F900C3BE05 /* ContentView.swift */,
+				549D185F26C1259000C3BE05 /* FirstLayer.swift */,
+				549D186126C125A200C3BE05 /* SecondLayer.swift */,
+				549D186326C125B100C3BE05 /* ThirdLayer.swift */,
+				549D186526C125BB00C3BE05 /* SubViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		549D186526C125BB00C3BE05 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				549D186626C125C700C3BE05 /* FirstLayerSubViews */,
+				549D186D26C1260600C3BE05 /* Line.swift */,
+				549D186F26C1260E00C3BE05 /* BottomButtonView.swift */,
+				549D187126C1261C00C3BE05 /* LoaderView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		549D186626C125C700C3BE05 /* FirstLayerSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				549D186726C125D600C3BE05 /* FirstLayerTopView.swift */,
+				549D186926C125E200C3BE05 /* FirstLayerInfoView.swift */,
+				549D186B26C125F000C3BE05 /* TopItemsView.swift */,
+			);
+			path = FirstLayerSubViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		549D183826C124F900C3BE05 /* Plan-Pay-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 549D184D26C124FA00C3BE05 /* Build configuration list for PBXNativeTarget "Plan-Pay-UI" */;
+			buildPhases = (
+				549D183526C124F900C3BE05 /* Sources */,
+				549D183626C124F900C3BE05 /* Frameworks */,
+				549D183726C124F900C3BE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Plan-Pay-UI";
+			productName = "Plan-Pay-UI";
+			productReference = 549D183926C124F900C3BE05 /* Plan-Pay-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		549D183126C124F900C3BE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					549D183826C124F900C3BE05 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 549D183426C124F900C3BE05 /* Build configuration list for PBXProject "Plan-Pay-UI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 549D183026C124F900C3BE05;
+			productRefGroup = 549D183A26C124F900C3BE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				549D183826C124F900C3BE05 /* Plan-Pay-UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		549D183726C124F900C3BE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491C06926C21E530071F89B /* SFUIText-BoldItalicG1.otf in Resources */,
+				5491C06526C21E530071F89B /* SFUIText-BoldG1.otf in Resources */,
+				5491C06026C21E530071F89B /* SFUIText-MediumItalic.otf in Resources */,
+				5491C06A26C21E530071F89B /* SFUIText-ItalicG3.otf in Resources */,
+				5491C05C26C21E530071F89B /* SFUIText-Heavy.otf in Resources */,
+				5491C05B26C21E530071F89B /* SFUIText-ItalicG2.otf in Resources */,
+				549D184926C124FA00C3BE05 /* LaunchScreen.storyboard in Resources */,
+				5491C05626C21E530071F89B /* SFUIText-RegularG1.otf in Resources */,
+				5491C06726C21E530071F89B /* SFUIText-LightItalic.otf in Resources */,
+				5491C06326C21E530071F89B /* SFUIText-RegularG2.otf in Resources */,
+				5491C06426C21E530071F89B /* SFUIText-BoldG2.otf in Resources */,
+				5491C05E26C21E530071F89B /* SFUIText-Regular.otf in Resources */,
+				5491C06226C21E530071F89B /* SFUIText-Light.otf in Resources */,
+				5491C05D26C21E530071F89B /* SFUIText-Medium.otf in Resources */,
+				5491C05826C21E530071F89B /* SFUIText-RegularG3.otf in Resources */,
+				5491C06B26C21E530071F89B /* SFUIText-ItalicG1.otf in Resources */,
+				549D184626C124FA00C3BE05 /* Preview Assets.xcassets in Resources */,
+				5491C06826C21E530071F89B /* SFUIText-SemiboldItalic.otf in Resources */,
+				5491C06626C21E530071F89B /* SFUIText-Italic.otf in Resources */,
+				5491C05926C21E530071F89B /* SFUIText-Semibold.otf in Resources */,
+				5491C05A26C21E530071F89B /* SFUIText-Bold.otf in Resources */,
+				5491C05726C21E530071F89B /* SFUIText-BoldItalicG2.otf in Resources */,
+				549D184326C124FA00C3BE05 /* Assets.xcassets in Resources */,
+				5491C05F26C21E530071F89B /* SFUIText-BoldItalicG3.otf in Resources */,
+				5491C06126C21E530071F89B /* SFUIText-BoldG3.otf in Resources */,
+				5491C05526C21E530071F89B /* SFUIText-HeavyItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		549D183526C124F900C3BE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5491C06D26C21E660071F89B /* Fonts.swift in Sources */,
+				549D186826C125D600C3BE05 /* FirstLayerTopView.swift in Sources */,
+				549D183D26C124F900C3BE05 /* AppDelegate.swift in Sources */,
+				549D186C26C125F000C3BE05 /* TopItemsView.swift in Sources */,
+				549D187226C1261C00C3BE05 /* LoaderView.swift in Sources */,
+				549D185E26C1256C00C3BE05 /* PricingViewModel.swift in Sources */,
+				549D186026C1259000C3BE05 /* FirstLayer.swift in Sources */,
+				549D187026C1260E00C3BE05 /* BottomButtonView.swift in Sources */,
+				549D186426C125B100C3BE05 /* ThirdLayer.swift in Sources */,
+				549D186226C125A200C3BE05 /* SecondLayer.swift in Sources */,
+				549D183F26C124F900C3BE05 /* SceneDelegate.swift in Sources */,
+				5491C03B26C21D980071F89B /* RoundedCorners.swift in Sources */,
+				549D186A26C125E200C3BE05 /* FirstLayerInfoView.swift in Sources */,
+				549D186E26C1260600C3BE05 /* Line.swift in Sources */,
+				549D185C26C1255500C3BE05 /* PricingModel.swift in Sources */,
+				549D184126C124F900C3BE05 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		549D184726C124FA00C3BE05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				549D184826C124FA00C3BE05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		549D184B26C124FA00C3BE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		549D184C26C124FA00C3BE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		549D184E26C124FA00C3BE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Plan-Pay-UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Plan-Pay-UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohdYasir.Plan-Pay-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		549D184F26C124FA00C3BE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Plan-Pay-UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Plan-Pay-UI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohdYasir.Plan-Pay-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		549D183426C124F900C3BE05 /* Build configuration list for PBXProject "Plan-Pay-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549D184B26C124FA00C3BE05 /* Debug */,
+				549D184C26C124FA00C3BE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		549D184D26C124FA00C3BE05 /* Build configuration list for PBXNativeTarget "Plan-Pay-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				549D184E26C124FA00C3BE05 /* Debug */,
+				549D184F26C124FA00C3BE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 549D183126C124F900C3BE05 /* Project object */;
+}
